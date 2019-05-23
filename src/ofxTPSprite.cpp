@@ -32,7 +32,7 @@ void ofxTPSprite::draw(int x, int y) {
 //                ofPopStyle();
 //            }
             ofTranslate(data->getOffsetX(), data->getOffsetHeight()-data->getOffsetY());
-            ofRotate(-90);
+            ofRotateDeg(-90);
             if(data->isDebugMode()){
                 ofPushStyle();
                 ofSetColor(0, 255, 0, 128);
