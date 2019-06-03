@@ -12,7 +12,8 @@
 #include <string>
 
 //#include "regex.h"  // posix
-#include <Poco/RegularExpression.h>
+// #include <Poco/RegularExpression.h>
+#include <regex>
 
 class ofxTPSpriteData;
 typedef shared_ptr<ofxTPSpriteData> ofxTPSpriteDataPtr;
